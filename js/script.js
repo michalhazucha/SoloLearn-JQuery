@@ -17,3 +17,8 @@ alert(get);
 
 $("table").removeAttr("border");
 $("table").removeAttr("class");
+
+$(function() {
+  var txt = $("<p></p>").text("Hi");
+  $("#demo").after(txt);
+});
