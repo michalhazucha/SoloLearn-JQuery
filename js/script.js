@@ -22,5 +22,5 @@ $(function() {
   var txt = $("<p></p>").text("Hi");
   $("#demo").after(txt);
 });
-var a = $("<span></span>"); 
+var a = $("<span></span>");
 $("#txt").append(a);
