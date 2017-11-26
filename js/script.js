@@ -1,16 +1,19 @@
 $(function() {
-  $("#start").html("Go!");
+	$("#start").html("Go!");
 });
 
 $("#menu").show();
 
 $(function() {
-  $("a").attr("href", "http://www.jquery.com");
+	$("a").attr("href", "http://www.jquery.com");
 });
-$(function(){
+$(function() {
 	$("#demo").before("<i>Some title</i>");
 	$("#demo").after("<i>Some title</i>");
 });
 
-var get =$("a").attr('href');
+var get = $("a").attr('href');
 alert(get);
+
+$("table").removeAttr("border");
+$("table").removeAttr("class");
